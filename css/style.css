@@ -24,6 +24,7 @@
 /*******************************************/
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 body {
   font-family: 'Titillium Web';
@@ -689,5 +690,160 @@ nav {
   .sect-1 .section-box {
     align-self: center;
     width: 100%;
+  }
+  .text-container.sub-header {
+    padding-top: 15rem;
+  }
+  .container.hero-3 {
+    flex-direction: column-reverse;
+    gap: 10rem;
+  }
+  .hero-3 .text-container {
+    width: 100%;
+  }
+  .bottom-section-1 .container {
+    flex-direction: column-reverse;
+    gap: 10rem;
+  }
+  .bottom-section-1 .section-box {
+    width: 100%;
+  }
+  .text-2 h2 {
+     width: 50%;
+  }
+  
+}
+
+@media all and (max-width: 1000px) {
+  /* header .container {
+    justify-content: center;
+  } */
+  .nav {
+    flex-basis: 90%;
+    gap: 2rem;
+  }
+  .main .main-box {
+    flex-basis: 550px;
+    height: 375px;
+  }
+  .section-box {
+    flex-basis: 500px;
+    height: 500px;
+  }
+  .place-order .container {
+    flex-direction: column;
+    gap: 4rem;
+    align-items: center;
+  }
+  .place-order .text-container {
+    text-align: center;
+  }
+  .footer {
+    /* height: 800px; */
+  }
+  .footer .container {
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    height: auto;
+    gap: 2rem;
+    justify-content: center;
+  }
+  .col {
+    flex-basis: 45%;
+  }
+}
+
+@media all and (max-width: 760px) {
+  .main .container {
+    padding-top: 4rem;
+  }
+  .burger {
+    float: left;
+    padding: 15px;
+  }
+  .burger:hover {
+    cursor: pointer;
+  }
+  .burger div {
+    width: 30px;
+    height: 2px;
+    margin: 5px;
+    background-color: #304659;
+  }
+  .square {
+    display: none;
+  }
+  .section-box {
+    flex-basis: 400px;
+    height: 450px;
+  }
+  .nav {
+    display: none;
+  }
+  .main-buttons {
+    flex-direction: column;
+  }
+  .container {
+    padding: 0 40px;
+  }
+  .main .main-box {
+    /* flex-basis: 300px; */
+    /* height: 300px;
+    width: 75%;
+    margin: auto; */
+    width: 90%;
+    flex-basis: 425px;
+  }
+  .sect-1 img {
+    width: 70%;
+    flex-basis: 400px;
+  }
+  .text-container {
+    width: 100%;
+  }
+  .box {
+    padding-left: 10px;
+    padding-bottom: 5rem;
+  }
+  .text-2 h2 {
+    width: 90%;
+  }
+}
+@media all and (max-width: 600px) {
+  .grid {
+    flex-basis: 1600px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+  }
+  .left-right .container {
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  .left-right .text-container {
+    order: -1;
+    flex-basis: 100%;
+    /* align-items: center;
+    justify-content: center; */
+  }
+ 
+}
+
+@media all and (max-width: 495px) {
+  .main .main-box {
+    flex-basis: 300px;
+  }
+  .place-order .button-container {
+    flex-direction: column;
+  }
+  .section-box {
+    flex-basis: 300px;
+  }
+  
+}
+
+@media all and (max-width: 400px) {
+  .main .main-box {
+    flex-basis: 225px;
   }
 }
