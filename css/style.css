@@ -97,13 +97,17 @@ nav {
 }
 .nav .signUp {
   /* margin-left: 5vw; */
-  background-color: #3a414f;
+  background-color: #e1e3eb;
   padding: 15px 40px;
   border-radius: 5px;
-  color: #f7f6f6;
+  color: #1e2734;
 }
 .signUp:hover {
-  background-color: #565d6b;
+  background-color: #f7f6f6;
+  
+}
+a.signUp:hover  {
+  color: #1e2734;
 }
 .item {
   display: flex;
@@ -156,14 +160,14 @@ nav {
 }
 
 .button-dark {
-  background-color: #1e2734;
+  background-color: #a42828;
   color: #e1e3eb;
   border-radius: 5px;
   padding: 12px 45px;
 }
 .button-dark:hover {
-  /* background-color: #404b5c; */
-  box-shadow: 0px 2px 10px rgba(128, 128, 128, 0.6);
+  background-color: #bb3333;
+  /* box-shadow: 0px 2px 10px rgba(128, 128, 128, 0.6); */
 }
 
 .main .main-box {
@@ -189,7 +193,7 @@ nav {
 .image-placeholder {
   width: 40%;
   height: 40%;
-  background:#1e2734;
+  background:#a42828;
   margin: auto;
   color: #dce7f3;
   display: flex;
@@ -273,7 +277,7 @@ nav {
 }
 
 .one-fourth:hover {
-  background-color: #1e2734;
+  background-color: #a42828;
   box-shadow: 0px 10px 25px rgba(200, 200, 200, 0.6);
 }
 .one-fourth span:first-child {
@@ -444,9 +448,9 @@ nav {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   /* padding-left: 20rem; */
-  padding: 2rem;
-  column-gap: 3rem;
-  row-gap: 3rem;
+  padding: 5rem;
+  column-gap: 2rem;
+  row-gap: 2rem;
   margin-bottom: 60px;
   overflow: hidden;
 }
@@ -460,6 +464,9 @@ nav {
   height: 200px;
   background-color: #fefeff;
   border-radius: 10px;
+  display: flex;
+  flex-direction: center;
+  text-align: center;
 }
 .box-4 {
   margin-right: -100px;
@@ -587,7 +594,9 @@ nav {
   padding: 12px 0;
   width: 200px;
 }
-
+.place-order h4 {
+  color: #e7f2fb;
+}
 .place-order .button-light {
   text-align: center;
   width: 200px;
@@ -864,6 +873,7 @@ nav {
   .grid-box {
     width: 75%;
     margin: 0 auto;
+    
   }
   
 }
