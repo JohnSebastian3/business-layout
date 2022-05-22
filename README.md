@@ -1,4 +1,4 @@
-# Jitsuno
+# Jitsuno Martial Arts
 A responsive, professional site for Jitsuno MMA Gym looking to show off their brand. Built with Gird and Flexbox to achieve a sleek and modern design.
 
 **Link to project:** https://jitsunomma.netlify.app/

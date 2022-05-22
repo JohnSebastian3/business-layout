@@ -755,9 +755,7 @@ a.signUp:hover  {
   .place-order .text-container {
     text-align: center;
   }
-  .footer {
-    /* height: 800px; */
-  }
+
   .footer .container {
     /* flex-direction: column; */
     flex-wrap: wrap;
